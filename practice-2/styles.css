@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: orange; 
+    padding: 15px 0;
+}
+header .container{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;           
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    gap: 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    max-width: 1000px;
+}
+form{
+    margin-bottom: 0;
+}
